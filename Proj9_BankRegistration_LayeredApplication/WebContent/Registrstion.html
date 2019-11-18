@@ -1,0 +1,32 @@
+<html>
+<head>
+    <title> Transparent registration Form Design </title>
+    <link rel="stylesheet" type="text/css" href="style.css">   
+</head>
+    <body>
+    <div class="login-box">
+    <img src="avatar.png" class="avatar">
+        <h1> Bank Registration</h1>
+            <form action="MainControllerServlet" method="POST">
+            <p>Holder Name:</p>
+            <input type="text" name="holdername" placeholder="Enter Holder Name">
+            <p>Address:</p>
+            <input type="text" name="address" placeholder="Enter Address">
+             <p>MobileNo:</p>
+            <input type="text" name="mobileno" placeholder="Enter MobileNo">
+             <p>Initial Amount:</p>
+            <input type="text" name="initialamount" placeholder="Enter Initial Amount ">
+            <p>Account Type:</p>
+            <select name="accounttype">
+            <option>Current</option>
+            <option>Saving</option>
+            <option>Recurring Deposit</option>
+            <option>Deposit</option>
+             </select>
+             <br><br>
+            <input type="submit" name="submit" value="Registration">  
+            </form>
+        </div>
+    
+    </body>
+</html>
